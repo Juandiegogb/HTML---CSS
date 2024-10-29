@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: monospace;
+}
+
+.nav {
+  background-color: #ccc;
+  margin: 0;
+  text-align: center;
+}
+
+.nav__item {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+}
+
+.nav__item:hover {
+  background-color: #aaa;
+}
+
+.nav__link {
+  text-decoration: none;
+}

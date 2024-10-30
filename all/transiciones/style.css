@@ -1,0 +1,26 @@
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.box {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  transition-property: background-color, left;
+  transition-duration: 2s;
+  text-align: center;
+  font-size: 80px;
+  position: relative;
+  left: 0;
+  transition-timing-function: ;
+}
+
+.box:hover {
+  color: white;
+}
+
+body:hover .box {
+  background-color: blue;
+  left: 600px;
+}

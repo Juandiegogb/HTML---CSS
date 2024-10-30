@@ -1,0 +1,17 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  font-size: large;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.sticky__box {
+  width: 100vw;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}

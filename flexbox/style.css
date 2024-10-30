@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  height: 60px;
+  width: 60px;
+  color: white;
+}
+
+.box__red {
+  background-color: red;
+  flex-grow: 3;
+}
+.box__blue {
+  background-color: blue;
+  flex-grow: 1;
+}
+.box__green {
+  background-color: green;
+  flex-grow: 7;
+}
+
+.container {
+  height: 100vh;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}

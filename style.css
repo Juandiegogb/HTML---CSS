@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+}
+
+.hero {
+  background-image: url("img.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+nav{
+  height: 100px;
+}
